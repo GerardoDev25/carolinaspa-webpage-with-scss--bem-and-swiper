@@ -51,7 +51,7 @@
   text-align: center;
   color: v.$secundario;
   font-family: v.$fuenteCursiva;
-  line-height: .8;
+  line-height: 0.8;
   font-weight: 400;
   text-transform: lowercase;
   font-size: 4rem;
@@ -61,4 +61,11 @@
     text-transform: uppercase;
     font-family: v.$fuentePrincipal;
   }
+}
+
+@mixin heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-size: 4rem;
 }
